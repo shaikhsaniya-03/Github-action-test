@@ -1,9 +1,6 @@
-import,Java[D[D[D[D[D[[C[C[C[C[C.io.*;
-import Java.util.Scanner;
 public Class Hello
 {
-	public static void main(String args[])
+	dpublic[D[D[D[D[D[D[D[[C[C[C[C[C[C[C[Cstatic void main (String args[])
 	{
-		System.out.print("Hello Java");
+		System.out.println("Hello Java");
 	}
-}
