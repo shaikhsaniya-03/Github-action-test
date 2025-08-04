@@ -2,7 +2,7 @@ name: JavaDemo File
 on:
   push:
     branches:
-      - main:
+      - main
 jobs:
   run-java:
     runs-on: ubuntu-latest
