@@ -1,0 +1,17 @@
+name: Demo File
+on:
+  - push
+jobs:
+  demo-commands:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Show current working directory
+        run: pwd
+      - name: List files in the directoy
+        run: ls -la
+      - name: Print today's date
+        run: date
+      - name: create and display a text file
+        run: |
+          echo "This is a demo file"> demo.txt
+          cat demo.txt
