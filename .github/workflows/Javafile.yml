@@ -1,0 +1,22 @@
+name:  JavaDemo File
+on:
+  push:
+    branches:
+      - main:
+jobs:
+  run-java:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        run: actions/checkout@v4
+      - name: Setup Java
+        run: actions/setup-java@v4
+        with: 
+          distribution: 'temurin'
+          java-version: '17'
+      - name: Compile java programs  
+        run: javac Hello.java
+      - name: Run jaa program
+        run: java Hello
+          
+          
