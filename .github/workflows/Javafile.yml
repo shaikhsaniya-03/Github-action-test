@@ -1,4 +1,4 @@
-name:  JavaDemo File
+name: JavaDemo File
 on:
   push:
     branches:
